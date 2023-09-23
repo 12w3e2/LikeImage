@@ -1,0 +1,41 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: #DAC0A3;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    width: 25%;
+    height: 35%;
+    background-color: brown;
+    border: 2px solid black;
+    transition-duration: 0.5s;
+    position: relative;
+   
+
+}
+#container img {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 10px 3px black;
+}
+#container i {
+    color: rgb(255, 0, 0);
+    font-size: 90px;
+    position: absolute;
+    right: 38%;
+    top: 30%;
+    transform: scale(0);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+   opacity: 0.70;
+}
+h1 {
+    
+}
